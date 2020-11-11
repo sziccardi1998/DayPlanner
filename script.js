@@ -12,7 +12,7 @@ $(document).ready(function () {
     var fourPM = $("#fourPM");
     var fivePM = $("#fivePM");
 
-    // create function to test getting teh text in text area
+    // create function to test getting the text in text area
 
     console.log(nineAM.children());
 
@@ -20,11 +20,10 @@ $(document).ready(function () {
 
     $(".row").each(function (index) {
 
-        var saveLocation = $(this).children(".saveBtn");
-        var areaLocation = $(this).children(".description");
-        $(saveLocation).on("click", function () {
-            var areaValue = areaLocation.contents();
-            console.log(areaValue);
+        
+        ($(this).children(".saveBtn")).on("click", function () {
+            var areaText = $(this).siblings(".description").val();
+            console.log(areaText);
         })
 
     });
