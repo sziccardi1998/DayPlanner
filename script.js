@@ -26,6 +26,7 @@ $(document).ready(function () {
         var rowID = $(this).parent(".row").attr("id");
         savedText[rowID] = areaText;
         setStoredText();
+        checkTime();
       });
   });
 
