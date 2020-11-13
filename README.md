@@ -9,4 +9,5 @@ This is an HTML application that functions as a one day planner. It allows you t
 
 ## Link:
 Repository: https://github.com/sziccardi1998/DayPlanner
+
 Hosted Application: https://sziccardi1998.github.io/DayPlanner/ 
