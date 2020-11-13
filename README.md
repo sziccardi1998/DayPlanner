@@ -6,6 +6,7 @@ This is an HTML application that functions as a one day planner. It allows you t
 ## Screenshot:
 ![screenshot](.assets/screenshot/screenshot.JPG)
 
+
 ## Link:
 Repository:
 Hosted Application: 
