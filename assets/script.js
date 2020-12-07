@@ -16,8 +16,8 @@ $(document).ready(function () {
   var savedText = {};
 
   // Variable to hold the current day
-  var today = moment().format("dddd, MMMM Mo");
-
+  var today = moment().format("dddd, MMMM Do");
+  console.log(moment().get('date'));
   currentDay.text(today);
   // create function to test getting the text in text area
 
