@@ -17,7 +17,6 @@ $(document).ready(function () {
 
   // Variable to hold the current day
   var today = moment().format("dddd, MMMM Do");
-  console.log(moment().get('date'));
   currentDay.text(today);
   // create function to test getting the text in text area
 
